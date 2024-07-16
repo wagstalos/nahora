@@ -6,11 +6,39 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      tablet: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      laptop: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
+
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        poppins: ["var(--font-poppins)"],
+      },
+      colors: {
+        codeboost: "#653df5",
+        "blue-primary": "#1D4FFE",
+        "green-primary": "#4BCE97",
+        "gray-border-card": "#131317",
+        "gray-area-favorite": "#05030A",
+        "gray-hover-btn-slide": "#07050F",
+      },
+
+      maxWidth: {
+        grid: "77.5rem",
+        "card-nft": "17.4rem",
+        "card-collector": "37rem",
+        "logo-size-mb": "10rem",
+        "nav-header": "48.3rem",
+        "left-cont-footer": "20rem",
+        "content-desc-hero": "41.1rem",
       },
     },
   },
