@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+import { nextui } from "@nextui-org/react";
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
@@ -33,6 +35,7 @@ module.exports = {
 
       maxWidth: {
         grid: "77.5rem",
+        "600px": "600px",
         "card-nft": "17.4rem",
         "card-collector": "37rem",
         "logo-size-mb": "10rem",
@@ -40,7 +43,15 @@ module.exports = {
         "left-cont-footer": "20rem",
         "content-desc-hero": "41.1rem",
       },
+      width: {
+        "600px": "600px",
+        "80percent": "80%",
+      },
+      height: {
+        128: "32rem",
+      },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()],
 };
