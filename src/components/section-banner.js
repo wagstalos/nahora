@@ -7,7 +7,7 @@ import app from "@/assets/nahora.png";
 
 export function SectionBanner() {
   return (
-    <section className="overflow-hidden pt-36">
+    <section className="overflow-hidden pt-20 laptop:pt-36">
       <ContainerGrid>
         <div
           className="w-full h-auto bg-banner bg-no-repeat 
@@ -16,12 +16,13 @@ export function SectionBanner() {
           <h2 className="text-lg">
             Na<span className="font-bold text-green-primary">Hora</span>.app
           </h2>
-          <h2 className="text-6xl laptop:text-7xl/snug font-poppins font-bold text-center mb-4 ">
-            Transforme seu <span className="gradient__text">negócio!</span>
-          </h2>
+          <h1 className="text-5xl laptop:text-7xl/snug font-poppins font-bold text-center mb-4 ">
+            Transforme seu
+            <span className="gradient__text"> negócio!</span>
+          </h1>
 
           <p
-            className="text-center text-base laptop:text-xl mb-6 max-w-xl
+            className="text-center text-base text-gray-300 laptop:text-xl mb-6 max-w-2xl
           "
           >
             Aumente sua produtividade, ofereça a melhor experiência de
