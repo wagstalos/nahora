@@ -1,6 +1,7 @@
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
+import { Providers } from "@/providers/next-iu";
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} ${poppins.variable}`}>
         <Header />
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
