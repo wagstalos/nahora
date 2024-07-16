@@ -38,12 +38,12 @@ export function Header() {
           </button>
         </div>
 
-        <button
+        {/* <button
           className="w-10 h-10 flex items-center justify-center border
          border-white border-opacity-5 rounded bg-white bg-opacity-5 laptop:hidden"
         >
           <Image src={IconHamburguer} alt="menu" />
-        </button>
+        </button> */}
       </ContainerGrid>
     </header>
   );
