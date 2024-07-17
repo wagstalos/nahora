@@ -9,7 +9,7 @@ import icon4 from "@/assets/icon4.svg";
 
 export function SectionCards() {
   return (
-    <section className="pt-40">
+    <section className="pt-40 ">
       <div>
         <TitleSection
           title="Automatização e Configurações Avançadas"

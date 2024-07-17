@@ -61,9 +61,9 @@ export function SectionBannerHero() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="#4BCE97"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp mr-2"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -74,7 +74,7 @@ export function SectionBannerHero() {
             </a>
           </div>
 
-          <Image src={app} alt="Screen do app" />
+          <Image className="mb-[-27px]" src={app} alt="Screen do app" />
         </div>
       </ContainerGrid>
     </section>

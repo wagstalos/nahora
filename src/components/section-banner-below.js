@@ -8,7 +8,10 @@ export function SectionBanner() {
   return (
     <section className="pt-40">
       <ContainerGrid>
-        <TitleSection title="Notificações elegantes e eficiente" />
+        <TitleSection
+          title="Notificações elegantes e eficiente"
+          subtitle="Notificações"
+        />
         <div className="w-full h-auto gradient__bg-banner gap-x-4 desktop:gap-x-8 gap-y-4 rounded-xl py-10 laptop:py-0 px-2 laptop:px-0">
           <div className="grid grid-cols-1 tablet:grid-cols-3 relative p-8 mt-0 desktop:mt-40">
             <div className="tablet:col-span-2 text-center laptop:text-start">
