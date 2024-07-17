@@ -6,7 +6,6 @@ export function SectionCardsInner({ image, title, description }) {
         src={image}
         alt="ImgNFT"
         loading="lazy"
-        className=""
         width={24}
         height={24}
       />
