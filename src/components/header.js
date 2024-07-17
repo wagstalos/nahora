@@ -5,7 +5,7 @@ import { ContainerGrid } from "./container";
 import logo from "@/assets/logo.svg";
 import IconHamburguer from "@/assets/icon-hamburger.svg";
 
-const itemsNav = ["Funcionalidades", "NFTs", "Rank", "FAQ"];
+const itemsNav = ["Funcionalidades", "Solução", "Rank", "FAQ"];
 
 export function Header() {
   return (
