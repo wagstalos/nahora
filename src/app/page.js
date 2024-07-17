@@ -3,6 +3,8 @@ import { SectionBannerHero } from "@/components/section-hero";
 import { SectionCards } from "@/components/section-cards";
 import { SectionVideo } from "@/components/section-videos";
 import { SectionBanner } from "@/components/section-banner-below";
+import { SectionFooter } from "@/components/section-footer";
+import { SectionTutorial } from "@/components/section-tutorial";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <SectionBanner />
       <SectionAbout />
       <SectionCards />
+      <SectionTutorial />
+      <SectionFooter />
     </section>
   );
 }

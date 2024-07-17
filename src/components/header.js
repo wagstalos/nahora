@@ -10,15 +10,15 @@ const itemsNav = ["Funcionalidades", "Solução", "Configuração"];
 export function Header() {
   return (
     <header className="absolute top-0 left-0 py-6 w-full laptop:py-5">
-      <ContainerGrid className="flex items-center justify-center desktop:justify-between">
+      <ContainerGrid className="flex items-center w-full justify-center desktop:justify-between">
         <h2 className="text-2xl">
           Na<span className="font-bold text-green-primary">Hora</span>.app
         </h2>
         <div
-          className="hidden laptop:flex flex-1 max-w-nav-header 
+          className="hidden laptop:flex
         items-center justify-between"
         >
-          <nav className="flex gap-12">
+          {/* <nav className="flex gap-12">
             {itemsNav.map((item, index) => (
               <Link
                 href={`#${item}`}
@@ -28,7 +28,7 @@ export function Header() {
                 {item}
               </Link>
             ))}
-          </nav>
+          </nav> */}
 
           <button
             className="bg-green-500 py-3 px-7 
