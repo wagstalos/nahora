@@ -5,7 +5,7 @@ import iconUser from "@/assets/icon-user.svg";
 import iconCompany from "@/assets/icon-company.svg";
 import app from "@/assets/nahora.png";
 
-export function SectionBanner() {
+export function SectionBannerHero() {
   return (
     <section className="overflow-hidden pt-20 laptop:pt-36">
       <ContainerGrid>

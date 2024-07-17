@@ -22,6 +22,10 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
+.gradient__bg-banner {
+    background: linear-gradient(357deg, #00e2ff 1.84%, #4ade80 102.67%);
+}
+
 .gradient__text-dark {
     background-clip: text;
     -webkit-background-clip: text;
