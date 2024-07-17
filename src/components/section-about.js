@@ -8,7 +8,7 @@ export function SectionAbout() {
   return (
     <section className="pt-40">
       <ContainerGrid>
-        <div className="flex flex-col tablet:flex-row gap-x-4 desktop:gap-x-8 gap-y-4 mt-40">
+        <div className="flex flex-col tablet:flex-row gap-x-4 desktop:gap-x-8 gap-y-4">
           <div className="w-full tablet:w-1/2">
             <small className="border-2 p-2 px-8 mb-8 border-r border-green-600 rounded-full">
               Nahora.app
