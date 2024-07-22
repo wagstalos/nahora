@@ -12,13 +12,13 @@ export function SectionBannerHero() {
     <section className="overflow-hidden pt-20 laptop:pt-36 gradient__bg">
       <ContainerGrid>
         <Image
-          className="hidden laptop:block absolute top-96 left-10"
+          className="hidden laptop:block absolute top-96 left-10 animate-float"
           src={prato1}
           alt="prato1"
         />
 
         <Image
-          className="hidden laptop:block absolute top-52 right-5"
+          className="hidden laptop:block absolute top-52 right-5 animate-float"
           src={prato2}
           alt="prato2"
         />

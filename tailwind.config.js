@@ -53,6 +53,15 @@ module.exports = {
       backgroundImage: {
         banner: 'url("../assets/phone-mockup-dark.png")',
       },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0)" }, // Ponto inicial e final (sem movimento)
+          "50%": { transform: "translateY(-10px)" }, // Movimento para cima
+        },
+      },
+      animation: {
+        float: "float 3s ease-in-out infinite", // Definindo a animação float com duração de 3s
+      },
     },
   },
   darkMode: "class",
