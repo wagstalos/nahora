@@ -33,7 +33,7 @@ export function SectionBannerHero() {
           </h1>
 
           <p
-            className="text-center text-base text-gray-300 laptop:text-xl mb-6 max-w-2xl
+            className="text-center text-base text-gray-300 laptop:text-xl mb-6 max-w-3xl
           "
           >
             Ofereça a melhor experiência de cardápio digital para os seus
