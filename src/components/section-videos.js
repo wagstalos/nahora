@@ -4,7 +4,7 @@ import { SectionVideoTabs } from "./section-video-tabs";
 
 export function SectionVideo() {
   return (
-    <section className="bg-slate-900 pt-40" id="Funcionalidades">
+    <section className="py-40 bg-slate-900 " id="Funcionalidades">
       <ContainerGrid>
         <TitleSection
           subtitle="funcionalidades"

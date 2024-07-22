@@ -11,8 +11,7 @@ export function Header() {
   return (
     <header className="absolute top-0 left-0 py-6 w-full laptop:py-5">
       <ContainerGrid className="flex items-center w-full justify-center desktop:justify-between">
-     
-        <Image src={logo} alt="logotio" width={200} quality={100} />
+        <Image src={logo} alt="logotio" width={180} quality={100} />
         <div
           className="hidden laptop:flex
         items-center justify-between"
