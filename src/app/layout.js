@@ -16,9 +16,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "NaHora.app",
+  title: "Garçom na tela",
   description:
-    "Ofereça a melhor experiência de agendamento para o seu cliente.",
+    "Ofereça a melhor experiência de cardápio digital para os seus clientes, organize seu estabelecimento e aumente seu faturamento experimente grátis!",
 };
 
 export default function RootLayout({ children }) {

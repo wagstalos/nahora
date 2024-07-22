@@ -16,14 +16,14 @@ html {
 }
 
 .gradient__text {
-    background: linear-gradient(357deg, #00e2ff 1.84%, #4ade80 102.67%);
+    background: linear-gradient(357deg, #ec4899 1.84%, #f43f5e 102.67%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .gradient__bg-banner {
-    background: linear-gradient(357deg, #00e2ff 1.84%, #4ade80 102.67%);
+    background: linear-gradient(357deg, #ec4899 1.84%, #f43f5e 102.67%);
 }
 
 .gradient__text-dark {

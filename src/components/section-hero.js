@@ -3,30 +3,28 @@ import { ContainerGrid } from "./container";
 
 import iconUser from "@/assets/icon-user.svg";
 import iconCompany from "@/assets/icon-company.svg";
-import app from "@/assets/nahora.png";
+import app from "@/assets/garcomnatela.png";
 
 export function SectionBannerHero() {
   return (
-    <section className="overflow-hidden pt-20 laptop:pt-36">
+    <section className="overflow-hidden pt-20 laptop:pt-36 gradient__bg">
       <ContainerGrid>
         <div
           className="w-full h-auto bg-banner bg-no-repeat 
         bg-cover bg-center flex flex-col items-center justify-center rounded-xl py-10 laptop:py-0 px-2 laptop:px-0"
         >
-          <h2 className="text-lg">
-            Na<span className="font-bold text-green-primary">Hora</span>.app
-          </h2>
-          <h1 className="text-5xl laptop:text-7xl/snug font-poppins font-bold text-center mb-4 ">
-            Transforme seu
-            <span className="gradient__text"> negócio!</span>
+          <h2 className="text-lg mt-5">Seja bem-vindo(a) 👋</h2>
+          <h1 className="text-5xl laptop:text-7xl/snug font-poppins max-w-7xl font-bold text-center mb-4 ">
+            Revolucione seu
+            <span className="gradient__text"> restaurante</span> agora mesmo!
           </h1>
 
           <p
             className="text-center text-base text-gray-300 laptop:text-xl mb-6 max-w-2xl
           "
           >
-            Aumente sua produtividade, ofereça a melhor experiência de
-            agendamento para o seu cliente, organize sua empresa e fature mais,
+            Ofereça a melhor experiência de cardápio digital para os seus
+            clientes, organize seu estabelecimento e aumente seu faturamento
             <strong> experimente grátis!</strong>
           </p>
 
@@ -41,7 +39,7 @@ export function SectionBannerHero() {
             </a>
             <a
               href="#"
-              className="bg-green-500 py-3 px-7 flex space-x-1
+              className="bg-gradient-to-r from-rose-500  via-rose-500 to-pink-500 py-3 px-7 flex space-x-1
           rounded-full font-medium hover:bg-green-700 transition-all ease-linear"
             >
               <Image src={iconUser} alt="icon user" />
@@ -49,7 +47,7 @@ export function SectionBannerHero() {
             </a>
           </div>
 
-          <div className="mt-5">
+          {/* <div className="mt-5">
             <a
               href=""
               className="text-white-500 flex text-green-primary hover:text-white transition-all ease-linear underline"
@@ -72,9 +70,9 @@ export function SectionBannerHero() {
               </svg>
               Tire suas dúvidas pelo nosso WhatsApp
             </a>
-          </div>
+          </div> */}
 
-          <Image className="mb-[-27px]" src={app} alt="Screen do app" />
+          <Image className="mb-[-27px] pt-10" src={app} alt="Screen do app" />
         </div>
       </ContainerGrid>
     </section>

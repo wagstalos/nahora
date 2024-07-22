@@ -11,9 +11,8 @@ export function Header() {
   return (
     <header className="absolute top-0 left-0 py-6 w-full laptop:py-5">
       <ContainerGrid className="flex items-center w-full justify-center desktop:justify-between">
-        <h2 className="text-2xl">
-          Na<span className="font-bold text-green-primary">Hora</span>.app
-        </h2>
+     
+        <Image src={logo} alt="logotio" width={200} quality={100} />
         <div
           className="hidden laptop:flex
         items-center justify-between"
@@ -30,10 +29,7 @@ export function Header() {
             ))}
           </nav> */}
 
-          <button
-            className="bg-green-500 py-3 px-7 
-          rounded-full font-medium hover:bg-green-700 transition-all ease-linear"
-          >
+          <button className="bg-gradient-to-r from-rose-500  via-pink-500 to-pink-500 py-3 px-7 rounded-full font-medium hover:bg-gradient-to-l hover:from-pink-500 hover:via-rose-500 hover:to-rose-500  transition-background ease-linear">
             Quero testar grátis
           </button>
         </div>

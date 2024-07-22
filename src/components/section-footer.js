@@ -7,9 +7,8 @@ export function SectionFooter() {
       <hr className="border-t border-white border-opacity-20 mx-auto" />
       <ContainerGrid>
         <p className="text-center p-8">
-          NaHora.App é um produto da empresa This Smart Solutions Razão Social:{" "}
-          <br />
-          DELLEAN SANTOS TEIXEIRA DESENVOLVIMENTO DE SOFTWARE LTDA
+          Produto da empresa <br />
+          <a href="https://valhalladigital.com.br/">Valhalla Digital</a> <br />
         </p>
       </ContainerGrid>
     </footer>
