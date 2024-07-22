@@ -18,7 +18,7 @@ export function SectionBannerHero() {
         />
 
         <Image
-          className="hidden laptop:block absolute top-52 right-5 animate-float"
+          className="hidden laptop:block absolute top-80 right-5 animate-float"
           src={prato2}
           alt="prato2"
         />
