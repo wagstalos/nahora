@@ -14,7 +14,7 @@ export function SectionBannerHero() {
         bg-cover bg-center flex flex-col items-center justify-center rounded-xl py-10 laptop:py-0 px-2 laptop:px-0"
         >
           <h2 className="text-lg mt-5">Seja bem-vindo(a) 👋</h2>
-          <h1 className="text-5xl laptop:text-7xl/snug font-poppins max-w-7xl font-bold text-center mb-4 ">
+          <h1 className="text-4xl laptop:text-7xl/snug font-poppins max-w-7xl font-bold text-center mb-4 ">
             Revolucione seu
             <span className="gradient__text"> restaurante</span> agora mesmo!
           </h1>
@@ -43,7 +43,7 @@ export function SectionBannerHero() {
           rounded-full font-medium hover:bg-green-700 transition-all ease-linear"
             >
               <Image src={iconUser} alt="icon user" />
-              <span> Entrar como colaborador</span>
+              <span> Entrar como restaurante</span>
             </a>
           </div>
 
