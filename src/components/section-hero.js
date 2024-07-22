@@ -4,16 +4,29 @@ import { ContainerGrid } from "./container";
 import iconUser from "@/assets/icon-user.svg";
 import iconCompany from "@/assets/icon-company.svg";
 import app from "@/assets/garcomnatela.png";
+import prato1 from "@/assets/prato1.png";
+import prato2 from "@/assets/prato2.png";
 
 export function SectionBannerHero() {
   return (
     <section className="overflow-hidden pt-20 laptop:pt-36 gradient__bg">
       <ContainerGrid>
+        <Image
+          className="hidden laptop:block absolute top-96 left-10"
+          src={prato1}
+          alt="prato1"
+        />
+
+        <Image
+          className="hidden laptop:block absolute top-52 right-5"
+          src={prato2}
+          alt="prato2"
+        />
         <div
-          className="w-full h-auto bg-banner bg-no-repeat 
-        bg-cover bg-center flex flex-col items-center justify-center rounded-xl py-10 laptop:py-0 px-2 laptop:px-0"
+          className="w-full h-auto
+         flex flex-col items-center justify-center rounded-xl py-10 laptop:py-0 px-2 laptop:px-0"
         >
-          <h2 className="text-lg mt-5">Seja bem-vindo(a) 👋</h2>
+          <h2 className="text-lg mt-10 laptop:mt-5">Seja bem-vindo(a) 👋</h2>
           <h1 className="text-4xl laptop:text-7xl/snug font-poppins max-w-7xl font-bold text-center mb-4 ">
             Revolucione seu
             <span className="gradient__text"> restaurante</span> agora mesmo!

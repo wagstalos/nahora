@@ -9,19 +9,19 @@ import icon4 from "@/assets/icon4.svg";
 
 export function SectionCards() {
   return (
-    <section className="pt-40 ">
+    <section className="py-40 ">
       <div>
         <TitleSection
           title="Garçom na tela é a solução definitiva"
           subtitle="Configurações"
         />
-        <p className="max-w-4xl mx-auto text-center text-gray-400">
-          Garçom na tela é a solução definitiva para restaurantes que desejam
+        <p className="max-w-4xl mx-auto text-center text-gray-400 px-4">
+          Garçom na tela é a solução de finitiva para restaurantes que desejam
           oferecer um
           <strong> cardápio digital</strong> . Desenvolvido para tornar a gestão
           de pedidos simples e eficiente, nosso aplicativo oferece uma
-          <strong>experiência única</strong> tanto para os donos de restaurantes
-          quanto para seus clientes.
+          <strong> experiência única</strong> tanto para os donos de
+          restaurantes quanto para seus clientes.
         </p>
         <div className="flex flex-col desktop:flex-row px-8 gap-3 mt-20">
           <SectionCardsInner
