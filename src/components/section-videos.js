@@ -7,7 +7,7 @@ export function SectionVideo() {
     <section className="py-40 bg-slate-900 " id="Funcionalidades">
       <ContainerGrid>
         <TitleSection
-          subtitle="funcionalidades"
+          subtitle="Funcionalidades"
           title="A Solução Completa para Restaurantes"
         />
 
