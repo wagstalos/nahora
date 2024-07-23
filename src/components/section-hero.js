@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ContainerGrid } from "./container";
+import Link from "next/link";
 
 import iconUser from "@/assets/icon-user.svg";
 import iconCompany from "@/assets/icon-company.svg";
@@ -42,22 +43,23 @@ export function SectionBannerHero() {
           </p>
 
           <div className="flex flex-col items-center laptop:flex-row gap-6 mt-8">
-            <a
+            <Link
               href="#"
               className="bg-slate-900 border-2 flex border-sky-700 space-x-1 py-3 px-7 
           rounded-full font-medium hover:bg-sky-800 transition-all ease-linear"
             >
-              <Image src={iconCompany} alt="icon-company" />
-              <span> Entrar como empresa</span>
-            </a>
-            <a
-              href="#"
+              <Image src={iconUser} alt="icon-company" width={26} />
+              <span> Entrar como cliente</span>
+            </Link>
+
+            <Link
+              href="https://hgeneroso.com/register/restaurant-owner"
               className="bg-gradient-to-r from-rose-500  via-rose-500 to-pink-500 py-3 px-7 flex space-x-1
           rounded-full font-medium hover:bg-green-700 transition-all ease-linear"
             >
-              <Image src={iconUser} alt="icon user" />
+              <Image src={iconCompany} alt="icon user" width={26} />
               <span> Entrar como restaurante</span>
-            </a>
+            </Link>
           </div>
 
           {/* <div className="mt-5">
