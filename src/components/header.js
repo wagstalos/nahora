@@ -11,7 +11,13 @@ export function Header() {
   return (
     <header className="absolute top-0 left-0 py-6 w-full laptop:py-5">
       <ContainerGrid className="flex items-center w-full justify-between">
-        <Image src={logo} alt="logotipo" width={180} quality={100} />
+        <Image
+          src={logo}
+          alt="logotipo"
+          className="w-[150px] laptop:w-[180px]"
+          width={150}
+          quality={100}
+        />
         <div className="justify-between">
           {/* <nav className="flex gap-12">
             {itemsNav.map((item, index) => (
