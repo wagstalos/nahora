@@ -28,7 +28,7 @@ export function SectionBanner() {
               </div>
             </div>
 
-            <div className="w-1/2 bg-banner bg-no-repeat bg-left">
+            <div className="w-1/2 bg-banner bg-no-repeat bg-left rounded-xl">
               {/* <Image src={phone} alt="phone" quality={90} /> */}
             </div>
           </div>
