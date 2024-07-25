@@ -1,8 +1,5 @@
-import Image from "next/image";
 import { ContainerGrid } from "./container";
 import { TitleSection } from "./title-section";
-
-import phone from "@/assets/phone-mockup-dark.png";
 
 export function SectionBanner() {
   return (
